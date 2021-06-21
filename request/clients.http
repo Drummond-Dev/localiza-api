@@ -1,0 +1,30 @@
+@api = http://localhost:3000/clients
+
+###
+GET {{api}}
+
+###
+POST  {{api}}
+Content-Type: application/json
+
+{
+    "name": "Mayra",
+    "email": "mayra@iproduce.com.br"
+}
+
+###
+GET {{api}}/8
+
+###
+DELETE {{api}}/11
+
+###
+GET {{api}}/count
+
+###
+PUT {{api}}/8
+Content-Type: application/json
+
+{
+    "name": "Julia Alcaide"
+}
