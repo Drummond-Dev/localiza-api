@@ -38,3 +38,28 @@ Para executar a API terá que seguir as instruções abaixo:
 > A tabela clients e os campos name e email são obrigatório para o funcionamento da API
 
 > Tenho mais um campo na tabela que se chama created_at (datetime), que sempre que um registro é criado, é inserido a data e hora da criação do registro
+
+### Rotas da API
+
+> A API responde todas as requisições com a mesma rota e alguns parâmetros que cito abaixo.
+
+- Listar todos os Clientes: 
+  - http://<Domínio>/clients
+  - Método GET
+- Listar um Cliente especifico:
+  - http://<Domínio>/clients/<ID do cliente>
+  - Método GET
+- Adicionar Novo CLiente:
+  - http://<Domínio>/clients
+  - Método POST
+  - Envio data via json
+- Alterar um Cliente:
+  - http://<Domínio>/clients/<ID do cliente>
+  - Método PUT
+  - Envio Data via json
+- Apagar um Cliente:
+  - http://<Domínio>/clients/<ID do cliente>
+  - Método DELETE
+- Mostrar número total de Clientes
+  - http://<Domínio>/clients/count
+  - Método GET
