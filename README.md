@@ -32,3 +32,8 @@ Para executar a API terá que seguir as instruções abaixo:
 ### Arquivo request/clients.http
 
 > Arquivo utilizado pelo plugin REST Client do VS Code para poder testar as requisições
+
+### Tabela e Campos obrigatório no Banco de Dados
+
+> A tabela clients e os campos name e email são obrigatório para o funcionamento da API
+> Tenho mais um campo na tabela que se chama created_at (datetime), que sempre que um registro é criado, é inserido a data e hora da criação do registro
